@@ -103,7 +103,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     wc.hCursor       = LoadCursor(NULL, IDC_ARROW);
     
     
-    wc.hbrBackground = CreateSolidBrush(RGB(205, 0, 100)); 
+    wc.hbrBackground = CreateSolidBrush(RGB(0, 255, 255)); 
     wc.lpszClassName = "WindowClass";
     wc.hIcon         = LoadIcon(NULL, IDI_APPLICATION); 
     wc.hIconSm       = LoadIcon(NULL, IDI_APPLICATION); 
